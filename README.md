@@ -30,3 +30,33 @@ How to Use
    Install any necessary dependencies
    pip install -r requirements.txt
 
+Run the Command Interpreter:
+python console.py
+
+Available Commands:
+
+    create: Create a new instance of BaseModel.
+    show: Show the details of an instance.
+    update: Update the attributes of an instance.
+    quit: Quit the command interpreter.
+
+Create a new User instance
+(cmd) create User
+
+Show details of the created User instance
+(cmd) show User 1
+
+Update the attributes of the User instance
+(cmd) update User 1 name "John Doe"
+
+Quit the command interpreter
+(cmd) quit
+
+Contributing
+
+Feel free to contribute to the project by opening issues or submitting pull requests.
+
+
+
+
+    
